@@ -1,0 +1,36 @@
+body {
+	height: 2000px;
+}
+
+.header {
+	padding: 0;
+	text-align: center;
+}
+.header nav {
+	height: 20px;
+	background: green;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 5px 0;
+}
+
+.header nav.fixed {
+	position: fixed;
+	inset: 0 0 auto 0;
+}
+
+section {
+	min-height: 100vh;
+}
+
+.header nav a {
+	color: #fff;
+ text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}

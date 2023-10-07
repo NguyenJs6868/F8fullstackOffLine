@@ -1,0 +1,23 @@
+body {
+	height: 5000px;
+}
+
+.top {
+	background: red;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	color: #fff;
+	border: 0;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	display: none;
+}
+
+.top.show {
+	display: block;
+}
+
+html {
+	scroll-behavior: smooth;
+}
