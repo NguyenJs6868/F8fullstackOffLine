@@ -1,0 +1,17 @@
+.clock, .clock2 {
+	background-color: red;
+	border-radius: 8px;
+	padding:  20px;
+	color: #fff;
+	margin: 30px auto;
+	width: 200px;
+	text-align: center;
+}
+
+.clock span:nth-child(1)::after,
+.clock span:nth-child(2)::after,
+.clock2 span:nth-child(1)::after,
+.clock2 span:nth-child(2)::after
+{
+	content: " :";
+}

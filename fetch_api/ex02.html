@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API ex02</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+        integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link rel="stylesheet" href="css/ex02.css"> -->
+    <link rel="stylesheet" href="./css/common.css">
+
+</head>
+
+
+<body>
+    <!--  -->
+    <div class="container py-3">
+
+        <form action="" class="mb-3 search">
+            <div class="row">
+                <div class="col-5">
+                    <input type="search" class="form-control keyword" placeholder="Từ khóa tìm kiếm...">
+                </div>
+                <div class="col-3 d-grid">
+                    <button class="btn btn-primary">Tìm kiếm</button>
+                </div>
+
+                <div class="col-4">
+                    <select class="form-select  sort-by">
+                        <option value="desc">Mới nhất</option>
+                        <option value="ác">Cũ nhất</option>
+                    </select>
+                </div>
+
+            </div>
+        </form>
+
+        <div class="posts"></div>
+        <hr>
+        <nav class="d-flex justify-content-end  paginate-nav">
+
+        </nav>
+
+    </div>
+
+    <!--  -->
+    <script type="module" src="./js/ex02.js"></script>
+    <!--  -->
+</body>
+
+</html>
+
+
+<!-- Do công ty stritet tạ pra  -->
+<!-- Các web có đăng nhập thì phảu lưu giỏ hàng ở BE, còn ko thì ở cookei -->
+<!-- Đi làm thực tế sẽ làm 1 file coinffig để gọi -->
